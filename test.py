@@ -202,7 +202,7 @@ class AssessmentTestCases(unittest.TestCase):
         return res.group().split("'")[1]
 
     def _get_url(self):
-        return "https://cryptic-spire-51813.herokuapp.com/"
+        return "https://nameless-journey-47341.herokuapp.com/"
 
     def _check_webhook_data(self):
         x = urllib.request.urlopen(f'{self._get_url()}/payment_intent')
